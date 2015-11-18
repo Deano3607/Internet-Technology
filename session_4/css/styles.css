@@ -1,0 +1,87 @@
+a:link {
+    color: #9450ff;
+    font-size: 20px;
+}
+
+a:visited {
+    color: #e200ff;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li {
+    line-height: 150%;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+#left_nav {
+    background-color: #b6ffa9;
+    float: left;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+}
+
+#section {
+    background-color: #f5ff79;   
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+
+#wrapper {
+    border: 10px auto #000000;
+    font-family: sans-serif;
+    height: 1300px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contents {
+    list-style: none;
+    padding: 0px;
+    text-align: left;
+}
+
+.display_block {
+    display: block;
+    margin: 0 auto; /* Sets element to centre of screen. Top/Bottom margins are set to 0px, left and right are equal. */
+    width: 200px;
+}

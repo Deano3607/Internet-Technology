@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+	Dean Leszman
+	12/10/2015
+	Session No: 3
+	Task Name: 	Creating a table
+-->
+<html>
+    <head>
+        <title>Timetable</title>
+        <meta name="description" content="Solent Timetable for Software Engineering">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <h1>Timetable</h1>
+            <table class="table">
+                <caption class="caption"><h3>Software Engineering</h3></caption>
+                <tr>
+                    <th class="corner"></th>
+                    <th class="hour">09:00</th>
+                    <th class="hour">10:00</th>
+                    <th class="hour">11:00</th>
+                    <th class="hour">12:00</th>
+                    <th class="hour">13:00</th>
+                    <th class="hour">14:00</th>
+                    <th class="hour">15:00</th>
+                    <th class="hour">16:00</th>
+                    <th class="hour">17:00</th>
+                </tr>
+                <tr>
+                    <td class="day">Monday</td>
+                    <td colspan="7" class="free"></td>
+                    <td colspan="2" class="lesson"><span class="unit">Internet Technology</span>		<!-- 16:00-18:00 -->
+                        <br><span class="room">Andrews Area 01</span>
+                        <br><span class="lecturer">J. Appleton</span></td>
+                </tr>
+                <tr >
+                    <td class="day">Tuesday</td>
+                    <td colspan="2" class="lesson">Programming and Problem Solving		<!-- 09:00-11:00 -->
+                                    <br><span class="room">RM609</span>
+                                    <br><span class="lecturer">P. Butt</span></td>
+                    <td colspan="2" class="free"></td>
+                    <td class="lesson">Mathematical Structures in Computing	<!-- 13:00-14:00 -->
+                        <br><span  class="room">HC020</span>
+                        <br><span class="lecturer">B. Dupee</span></td>
+                    <td class="lesson">Professional Practice
+                        <br><span class="room">HC216</span>
+                        <br><span class="lecturer">B. Griffin</span></td>	<!-- 14:00-15:00 -->
+                    <td colspan="3" class="free"></td>
+                </tr>
+                <tr>
+                    <td class="day">Wednesday</td>
+                    <td colspan="2" class="free"></td>
+                    <td colspan="2" class="lesson">Internet Technology Platforms	<!-- 11:00-12:00 -->
+                                    <br><span class="room">RM503</span>
+                                    <br><span class="lecturer">W. Earle</span></td>
+                    <td colspan="2" class="lesson">Databases		<!-- 13:00-15:00 -->
+                                    <br><span class="room">Andrews Area 09</span>
+                                    <br><span class="lecturer">S. Baron</span></td>
+                    <td colspan="3" class="free"></td>
+                </tr>
+                <tr>
+                    <td class="day">Thursday</td>
+                    <td colspan="8" class="free"></td>
+                    <td class="lesson">Mathematical Structures in Computing	<!-- 17:00-18:00 -->
+                        <br><span class="room">RM203</span>
+                        <br><span class="lecturer">B. Dupee</span></td>
+                </tr>
+                <tr>
+                    <td class="day">Friday</td>
+                    <td colspan="9" class="free"><br><br><br></td>
+                </tr>
+            </table>
+            <div id="footer">
+                <p>
+                    <span class="footer">Dean Leszman - Q11582634 - Internet Technology</span>
+                </p>
+            </div><!--[END]#footer-->
+        </div><!--[END]#wrapper-->
+    </body>
+</html>
