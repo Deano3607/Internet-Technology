@@ -6,8 +6,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Dean Leszman - Assessment 1</title>
-        <meta name="description" content="Dean Leszman - Assessment 1 - Contact">
+        <title>Contact</title>
+        <meta name="description" content="Dean Leszman - Internet Technology Assessment 1 - contact.html">
         <link rel="stylesheet" href="css/styles.css">
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,23 +16,77 @@
 
     <body>
         <div id="wrapper">
-            <div id="content">
-                <div id="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="learning_log.html">Learning Log</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div id="section">
-                    <h1>Contact</h1>
-                </div><!--[END]#section-->
-            </div><!--[END]#content-->
-            <div id="footer">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="learning_log.html">Learning Log</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <header>
+                <h1>Contact</h1>
+                This contact form is available to use to contact me regarding any inquiries about me or my website.
+            </header>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <ul>
+                            <li>
+                                <div class="form_row">
+                                    <p>First Name:</p>
+                                    <input type="text" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form_row">
+                                    <p>Last Name:</p>
+                                    <input type="text" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form_row">
+                                    <p>Phone No.</p>
+                                    <input type="text" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form_row">
+                                    <p>Contact Permission:</p>
+                                    <input type="radio" name="contact" id="contactYes" value="yes">
+                                    <label for="contactYes">Yes</label>
+                                    
+                                    <input type="radio" name="contact" id="contactNo" value="no">
+                                    <label for="contactNo">No</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form_row">
+                                    <p>Best time to contact:</p>
+                                    <select name="time">
+                                      <option value="Morning">Morning</option>
+                                      <option value="Afternoon">Afternoon</option>
+                                      <option value="Evening">Evening</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>Method of Contact:</p>
+                                    <input type="checkbox" /><label>Phone</label>
+                                    <input type="checkbox" /><label>Email</label>
+                                </div>
+                            </li>
+                            <li><input type="submit" /></li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </section>
+            <footer>
                 <p>
                     <span class="footer">Dean Leszman - Q11582634 - Internet Technology</span>
                 </p>
-            </div><!--[END]#footer-->
+            </footer>
         </div><!--[END]#wrapper-->
     </body>
 </html>

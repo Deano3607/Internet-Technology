@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <title>Learning Log</title>
-        <meta name="description" content="Dean Leszman - Assessment 1 - Learning Log">
+        <meta name="description" content="Dean Leszman - Internet Technology Assessment 1 - learningLog.html">
         <link rel="stylesheet" href="css/styles.css">
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,119 +16,149 @@
 
     <body>
         <div id="wrapper">
-            <div id="content">
-                <div id="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="learning_log.html">Learning Log</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div id="section">
-                    <h1>Learning Log</h1>
-                    <p>The learning log shows the track of my progress throughout the Internet Technology unit during the academic year. Each week, a new session row is filled out with what content was covered, what I had learnt and what I think I am able to improve on. Every session has an attached piece of work designed to meet the criteria of the MyCourse tasks.</p>
-                    
-                    <table class="logTable">
-                        <!-- Header -->
-                        <thead>
-                            <tr>
-                                <th class="tableLeft">Session No.</th>
-                                <th>Learning Outcomes</th>
-                                <th class="tableRight">Evidence</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Session 1 -->
-                            <tr>
-                                <td>Session 1</td>
-                                <td>
-                                    <p>
-                                        Learnt about typical document layout, initially setting the doctype and title tags. Moved onto adding text headers and body paragraphs. Along with these I added an image and URL link to redirect in a new tab. Also covered attributes within elements, functionally a singleton tag. E.g. An &lt;img&gt; element has attributes within it to determine what needs to be shown 
-                                            i.e. src=”” for the source along with alt=”” for the display text if the image doesn’t load properly. This is also used by search engines to determine the content of the page.
-                                            Search engines also make use of the title to know what to display after a search has occurred.
-                                    </p>
-                                    <p>
-                                        To improve, I could look at adding more anchor tags to show I understand them fully. This will be developed as the weeks go on.
-                                    </p>
-                                </td>
-                                <td><a href="session_1/index.html" target="_blank">Session 1</a></td>
-                            </tr>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="learning_log.html">Learning Log</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <header>
+                <h1>Learning Log</h1>
+                <p>The learning log shows the track of my progress throughout the Internet Technology unit during the academic year. Each week, a new session row is filled out with what content was covered, what I had learnt and what I think I am able to improve on. Every session has an attached piece of work designed to meet the criteria of the MyCourse tasks.</p>
+            </header>
+            <section>
+                <table class="logTable">
+                    <!-- Header -->
+                    <thead>
+                        <tr>
+                            <th class="tableLeft">Session No.</th>
+                            <th>Learning Outcomes</th>
+                            <th class="tableRight">Evidence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Session 1 -->
+                        <tr>
+                            <td>Session 1</td>
+                            <td>
+                                <p>
+                                    Learnt about typical document layout, initially setting the doctype and title tags. Moved onto adding text headers and body paragraphs. Along with these I added an image and URL link to redirect in a new tab. Also covered attributes within elements, functionally a singleton tag. E.g. An &lt;img&gt; element has attributes within it to determine what needs to be shown 
+                                        i.e. src=”” for the source along with alt=”” for the display text if the image doesn’t load properly. This is also used by search engines to determine the content of the page.
+                                        Search engines also make use of the title to know what to display after a search has occurred.
+                                </p>
+                                <p>
+                                    To improve, I could look at adding more anchor tags to show I understand them fully. This will be developed as the weeks go on.
+                                </p>
+                            </td>
+                            <td><a href="session_1/index.html" target="_blank">Session 1</a></td>
+                        </tr>
 
-                            <!-- Session 2 -->
-                            <tr>
-                                <td>Session 2</td>
-                                <td>
-                                    <p>
-                                        Recapped on session 1 content. Briefly looked at lists (bullet points) however I haven't used them yet. Learnt about the W3C parser to ensure my work follows the standards set by W3C. Learnt how to create a table, as shown by this learning log and in session 2. Initially that we have to encompass the entire table in &lt;table&gt; tags. Each row is created then fill the rows with the appropriate amount of columns by using the &lt;td&gt; tag to represent table data. Went over spanning data across multiple columns to create my timetable. After creating the initial table with every cell having its own border, I went back through it to merge across common cells; this was mainly merging the empty gaps where I had no lessons. We had also looked at relative vs. absolute locations when creating links. Setting an absolute relative will break on anything except the original machine because the data will not be stored in the same location. Relative is based on the top level location that the page is running from.
-                                    </p>
-                                    <p>
-                                        To improve, I should implement some form of list so I can incorporate the list example briefly looked at in the session. I would also change how the table looked; I had asked about creating equal width columns but was told this would be covered in the next session.
-                                    </p>
-                                </td>
-                                <td><a href="session_2/timetable.html" target="_blank">Session 2</a></td>
-                            </tr>
+                        <!-- Session 2 -->
+                        <tr>
+                            <td>Session 2</td>
+                            <td>
+                                <p>
+                                    Recapped on session 1 content. Briefly looked at lists (bullet points) however I haven't used them yet. Learnt about the W3C parser to ensure my work follows the standards set by W3C. Learnt how to create a table, as shown by this learning log and in session 2. Initially that we have to encompass the entire table in &lt;table&gt; tags. Each row is created then fill the rows with the appropriate amount of columns by using the &lt;td&gt; tag to represent table data. Went over spanning data across multiple columns to create my timetable. After creating the initial table with every cell having its own border, I went back through it to merge across common cells; this was mainly merging the empty gaps where I had no lessons. We had also looked at relative vs. absolute locations when creating links. Setting an absolute relative will break on anything except the original machine because the data will not be stored in the same location. Relative is based on the top level location that the page is running from.
+                                </p>
+                                <p>
+                                    To improve, I should implement some form of list so I can incorporate the list example briefly looked at in the session. I would also change how the table looked; I had asked about creating equal width columns but was told this would be covered in the next session.
+                                </p>
+                            </td>
+                            <td><a href="session_2/timetable.html" target="_blank">Session 2</a></td>
+                        </tr>
 
-                            <!-- Session 3 -->
-                            <tr>
-                                <td>Session 3</td>
-                                <td>
-                                    <p>
-                                        Recapped session 2 and ensured that I had completed the work. Covered the difference between block-level and inline-level elements. Learnt about the basics of CSS - Settings the style of standard tags, divs, spans and classes. Learnt a few basic styles; we changed the format of the h1 header, along with some table cells.
-                                    </p>
-                                    <p>
-                                        To improve, I would look at further use of spans as well as the hierarachy of CSS elements to apply to specific items on the page.
-                                    </p>
-                                </td>
-                                <td><a href="session_3/timetable.html" target="_blank">Session 3</a></td>
-                            </tr>
+                        <!-- Session 3 -->
+                        <tr>
+                            <td>Session 3</td>
+                            <td>
+                                <p>
+                                    Recapped session 2 and ensured that I had completed the work. Covered the difference between block-level and inline-level elements. Learnt about the basics of CSS - Settings the style of standard tags, divs, spans and classes. Learnt a few basic styles; we changed the format of the h1 header, along with some table cells.
+                                </p>
+                                <p>
+                                    To improve, I would look at further use of spans as well as the hierarachy of CSS elements to apply to specific items on the page.
+                                </p>
+                            </td>
+                            <td><a href="session_3/timetable.html" target="_blank">Session 3</a></td>
+                        </tr>
 
-                            <!-- Session 4 -->
-                            <tr>
-                                <td>Session 4</td>
-                                <td>
-                                    <p>
-                                        In session 3, I learnt about the different measurements (%, em and px mainly to be used though). Learnt about psuedo classes to change content based on interaction with the screen or on certain situations. One example is using :hover, :visited and :link for the anchor tags to assign different formats depending on whether the user has used the link yet. Also covered other psuedo elements such as :first-line, :before, :after, etc. Talked about how we can force content to display in-line/block level with the display property in CSS. >Went over how the width/height of an element only applies to the element itself. Margins, borders and padding are all added on top of the element. Finally went over floats and how we can layout elements to appear side-by-side. In the lesson, I figured out why some of my content wasn't being formatted properly; I had placed the &lt;div id="wrapper"&gt; tag out of the body tag.
-                                    </p>
-                                    <p>
-                                        To improve, I can practice on other pages to experiment with the layout further. I would be able to see how different layouts can affect the overall theme of the site and which is the most suitable to use.
-                                    </p>
-                                </td>
-                                <td><a href="session_4/index.html" target="_blank">Session 4</a></td>
-                            </tr>
+                        <!-- Session 4 -->
+                        <tr>
+                            <td>Session 4</td>
+                            <td>
+                                <p>
+                                    In session 4, I learnt about the different measurements (%, em and px mainly to be used though). A % width scales based on the default value of the content. The widths for em scale based on size 16px font. This is the default size for most browsers meaning that everything will scale from this. I also learnt about psuedo classes to change content based on interaction with the screen or on certain situations. One example is using :hover, :visited and :link for the anchor tags to assign different formats depending on whether the user has used the link yet. Also covered other psuedo elements such as :first-line, :before, :after, etc. Talked about how we can force content to display in-line/block level with the display property in CSS. >Went over how the width/height of an element only applies to the element itself. Margins, borders and padding are all added on top of the element. Finally went over floats and how we can layout elements to appear side-by-side. In the lesson, I figured out why some of my content wasn't being formatted properly; I had placed the &lt;div id="wrapper"&gt; tag out of the body tag.
+                                </p>
+                                <p>
+                                    To improve, I can practice on other pages to experiment with the layout further. I would be able to see how different layouts can affect the overall theme of the site and which is the most suitable to use.
+                                </p>
+                            </td>
+                            <td><a href="session_4/index.html" target="_blank">Session 4</a></td>
+                        </tr>
 
-                            <!-- Session 5 -->
-                            <tr>
-                                <td>Session 5</td>
-                                <td>
-                                    <p>
-                                        This lesson was mostly catching up with previous weeks. I had completed all of the previous weeks work beforehand so I spent most of the lesson working towards the assignment hand-in state, after checking my work meets the requirements to be submitted for hand-in (e.g. validating against W3C standards among other things. I had created the index page for the website as well as edited my learning log to suite the overall 'theme' of the site. I had to change a few things to get everything to work but overall it went pretty well.
-                                    </p>
-                                </td>
-                                <td><a href="session_5/checklist.pdf" target="_blank">Session 5</a></td>
-                            </tr>
+                        <!-- Session 5 -->
+                        <tr>
+                            <td>Session 5</td>
+                            <td>
+                                <p>
+                                    This lesson was mostly catching up with previous weeks. I had completed all of the previous weeks work beforehand so I spent most of the lesson working towards the assignment hand-in state, after checking my work meets the requirements to be submitted for hand-in (e.g. validating against W3C standards among other things. I had created the index page for the website as well as edited my learning log to suite the overall 'theme' of the site. I had to change a few things to get everything to work but overall it went pretty well.
+                                </p>
+                            </td>
+                            <td><a href="session_5/checklist.pdf" target="_blank">Session 5</a></td>
+                        </tr>
 
-                            <!-- Session Template -->
-                            <tr>
-                                <td>Session X</td>
-                                <td>
-                                    <p>
+                        <!-- Session 6 -->
+                        <tr>
+                            <td>Session 6</td>
+                            <td>
+                                <p>
+                                    Throughout session 6, we went over additional CSS3 elements that allows extra features such as border radius to change the square borders into a more rounded version. We also added a gradient background. I had already implemented these into my work as I had been doing additional research/learning outside of the lessons. The task for this session was to edit the stylesheet for an example webpage in order to make everything display to match the example image.
+                                </p>
+                                <p>We also went over semantic elements. This uses keywords for particular sections of a webpage. I had changed my whole project to implement these instead of separate divisions for each element. e.g. Changing &lt;div id="section"&gt; to &lt;section&gt;.</p>
+                                <p>
+                                    To improve, I could look into additional CSS3 elements to add to my website. I quite like the overall theme so far so I am unsure what I could add as of now.
+                                </p>
+                            </td>
+                            <td><a href="session_6/index.html" target="_blank">Session 6</a></td>
+                        </tr>
+                        
+                        <!-- Session 7 -->
+                        <tr>
+                            <td>Session 7</td>
+                            <td>
+                                <p>
+                                    In session 7, we had covered form attributes. I had already researched the HTML form content in my own time so I was able to progress through this session very quickly. After recapping on input types, labels and what each element does, I went about completing the task for the day. I had learnt that there is a 'required' attribute to use in an input tag that forces the user to fill in the element.
+                                </p>
+                                <p>
+                                    
+                                </p>
+                            </td>
+                            <td>
+                                <a href="session_7/form_task.html" target="_blank">Session 7</a>
+                                <a href="session_7/form_validation.html" target="_blank">Session 7</a>
+                            </td>
+                        </tr>
+                        <!-- Session Template -->
+                        <tr>
+                            <td>Session X</td>
+                            <td>
+                                <p>
 
-                                    </p>
-                                    <p>
+                                </p>
+                                <p>
 
-                                    </p>
-                                </td>
-                                <td><a href="#" target="_blank">Session X</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div><!--[END]#section-->
-            </div><!--[END]#content-->
-            <div id="footer">
+                                </p>
+                            </td>
+                            <td><a href="#" target="_blank">Session X</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section><!--[END]#section-->
+            <footer>
                 <p>
                     <span class="footer">Dean Leszman - Q11582634 - Internet Technology</span>
                 </p>
-            </div><!--[END]#footer-->
+            </footer><!--[END]#footer-->
         </div><!--[END]#wrapper-->
     </body>
 </html>

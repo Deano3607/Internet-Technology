@@ -1,0 +1,97 @@
+<!doctype html>
+<!-- 
+    Dean Leszman
+	09/11/2015
+    Session No: 7
+    Task Name: Forms
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Forms</title>
+        <meta name="description" content="HTML Forms task">
+        <link rel="stylesheet" href="css/styles.css">
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <nav>
+                
+            </nav>
+            <header>
+                <h1>Student Survey</h1>
+            </header>
+            <section>
+                <form>
+                    <legend>Student Survey</legend>
+                    <label>
+                        Name*:
+                        <input type="text" name="Name" required>
+                    </label>
+                    <br>
+                    <label>
+                        Email*:
+                        <input type="email" name="Email" required>
+                    </label>
+                    <br>
+                    <label>
+                        Number*:
+                        <input type="tel" name="Phone" required>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        What year are you in?*:
+                        <select name="Year" required>
+                            <option value="NULL">Please Select</option>
+                            <option value="F">Foundation</option>
+                            <option value="1">Year 1</option>
+                            <option value="2">Year 2</option>
+                            <option value="3">Year 3</option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Which electronic devices do you use?
+                        <br>
+                        <input type="checkbox" name="Devices" value="computer">Computer
+                        <br>
+                        <input type="checkbox" name="Devices" value="ebook">Ebook Reader
+                        <br>
+                        <input type="checkbox" name="Devices" value="smartphone">Smart Phone
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        How many hours a day do you spend using electronic devices?
+                        <br>
+                        <input type="radio" name="DeviceTime" value="1hour">1 Hour
+                        <br>
+                        <input type="radio" name="DeviceTime" value="2hours">2 Hours
+                        <br>
+                        <input type="radio" name="DeviceTime">3 Hours+
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Any other comments?
+                        <br>
+                        <textarea name="comments" rows="5" cols="30">Enter your suggestions here...</textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit Form">
+                </form>
+            </section>
+            <footer>
+                <p>
+                    <span class="footer">Dean Leszman - Q11582634 - Internet Technology</span>
+                </p>
+            </footer>
+        </div><!--[END]#wrapper-->
+    </body>
+</html>
